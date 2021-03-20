@@ -1,6 +1,6 @@
 {
   "name": "react-parsed-text",
-  "version": "0.0.22",
+  "version": "0.0.1",
   "description": "Parse text and make them into multiple React JS Span elements",
   "main": "src/ParsedText.js",
   "scripts": {
@@ -9,13 +9,13 @@
    
   },
   "bugs": {
-    "url": "https://github.com/taskrabbit/react-native-parsed-text/issues"
+    "url": "https://github.com/azad-techvilla/react-parsed-text/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/taskrabbit/react-native-parsed-text.git"
+    "url": "git+ssh://git@github.com/azad-techvilla/react-parsed-text.git"
   },
-  "homepage": "https://github.com/taskrabbit/react-native-parsed-text#readme",
+  "homepage": "https://github.com/azad-techvilla/react-parsed-text/#readme",
   "keywords": [
     "text",
     "url",
@@ -40,7 +40,7 @@
             "@babel/plugin-proposal-class-properties"
         ]
     },
-  "author": "jrichardlai",
+  "author": "Azad Hussian",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.7.x"
