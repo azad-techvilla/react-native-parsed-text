@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from 'react-native';
+//import { Text } from 'react-native';
 import PropTypes from 'prop-types';
 
 import TextExtraction from './lib/TextExtraction';
@@ -111,7 +111,7 @@ class ParsedText extends React.Component {
       const { style: parentStyle } = this.props;
       const { style, ...remainder } = props;
       return (
-        <Text
+        <span
           key={`parsedText-${index}`}
           style={[parentStyle, style]}
           {...this.props.childrenProps}
@@ -126,9 +126,9 @@ class ParsedText extends React.Component {
     const { parse, childrenProps, ...remainder } = { ...this.props };
 
     return (
-      <Text ref={(ref) => (this._root = ref)} {...remainder}>
+      <span ref={(ref) => (this._root = ref)} {...remainder}>
         {this.getParsedText()}
-      </Text>
+      </span>
     );
   }
 }
