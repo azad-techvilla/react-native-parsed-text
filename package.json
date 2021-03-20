@@ -5,9 +5,8 @@
   "main": "src/ParsedText.js",
   "scripts": {
     "prettier": "prettier",
-    "prettier:all": "prettier --write '**/*.json' '**/*.js' '**/*.ts' ",
-    "lint": "eslint",
-    "test": "jest"
+    "prettier:all": "prettier --write '**/*.json' '**/*.js' '**/*.ts' "
+   
   },
   "bugs": {
     "url": "https://github.com/taskrabbit/react-native-parsed-text/issues"
@@ -28,9 +27,6 @@
     "react": "*"
   },
   "devDependencies": {
-    "@babel/core": "7.10.x",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-preset-expo": "8.2.x",
     "eslint": "7.2.x",
     "prettier": "2.0.x",
     "react": "16.13.x"
