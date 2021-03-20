@@ -30,7 +30,16 @@
     "eslint": "7.2.x",
     "prettier": "2.0.x",
     "react": "16.13.x"
-  },
+  },  
+  "babel": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ],
+        "plugins": [
+            "@babel/plugin-proposal-class-properties"
+        ]
+    },
   "author": "jrichardlai",
   "license": "MIT",
   "dependencies": {
